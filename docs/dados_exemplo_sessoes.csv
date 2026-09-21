@@ -1,0 +1,5 @@
+veiculo,bateria_atual,bateria_desejada,potencia_solicitada,conector,pagamento
+EV-001,25,90,22,CCS2,Aprovado
+EV-002,40,85,22,Tipo 2,Aprovado
+EV-003,15,90,22,CCS2,Pendente
+EV-004,60,90,22,CHAdeMO,Recusado

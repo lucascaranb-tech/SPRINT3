@@ -145,7 +145,6 @@ http://localhost:8501
 
 - `docs/arquitetura.md` — arquitetura e integração.
 - `docs/dados_exemplo_sessoes.csv` — dados de exemplo.
-- `Entrega_FIAP_Sprint3.txt` — arquivo solicitado para entrega.
 
 ## Repositório da Sprint 2
 

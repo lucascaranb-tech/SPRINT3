@@ -144,7 +144,6 @@ http://localhost:8501
 ## Documentação
 
 - `docs/arquitetura.md` — arquitetura e integração.
-- `docs/roteiro_video.md` — roteiro de gravação com falas e ações na tela.
 - `docs/dados_exemplo_sessoes.csv` — dados de exemplo.
 - `Entrega_FIAP_Sprint3.txt` — arquivo solicitado para entrega.
 

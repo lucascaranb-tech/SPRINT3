@@ -1,4 +1,4 @@
-# ⚡ ChargeGrid Intelligence — Sprint 3
+ChargeGrid Intelligence — Sprint 3
 
 **FIAP + GoodWe Challenge 2026**
 
@@ -6,17 +6,14 @@ Protótipo funcional de gerenciamento inteligente de recarga comercial de veícu
 
 > **Sprint 3 — Prototipagem Funcional e Integração**
 
-## 👥 Equipe
-
-| Integrante | RM |
-|---|---:|
+ Equipe
 | Mauricio Bertuci Saletti | RM571229 |
 | Lucas Caram Bueno | RM570158 |
 | Rhuan Pacheco Carreri | RM570129 |
 | Leonardo Fortini Marcelo | RM572566 |
 | Nicolas Andrade Rodrigues | RM572782 |
 
-## 🎯 Objetivo
+## Objetivo
 
 O ChargeGrid Intelligence propõe uma solução para a expansão da recarga de veículos elétricos do ambiente residencial para o comercial. O projeto trabalha com quatro pilares: **controle de demanda, protocolos abertos, tarifação/pagamento e inteligência artificial**.
 
@@ -24,7 +21,7 @@ Na Sprint 2, a equipe já possuía uma prova de conceito em Streamlit capaz de s
 
 Nesta Sprint 3, essa lógica foi organizada em um protótipo integrado com **comandos de operação, processamento das sessões, redistribuição de potência, indicadores, gráfico, eventos e documentação técnica**.
 
-## 🔌 O que o protótipo demonstra
+## O que o protótipo demonstra
 
 1. Cadastro/simulação de veículos conectados.
 2. Limite de potência disponível no eletroposto.
@@ -37,7 +34,7 @@ Nesta Sprint 3, essa lógica foi organizada em um protótipo integrado com **com
 9. Comandos simulados de operação.
 10. Registro de eventos recentes.
 
-## 🧠 Fluxo integrado
+## Fluxo integrado
 
 ```text
 ┌─────────────────────┐
@@ -69,7 +66,7 @@ Nesta Sprint 3, essa lógica foi organizada em um protótipo integrado com **com
 └─────────────────────┘
 ```
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```text
 ENTRADA
@@ -98,20 +95,20 @@ SAÍDA
   └── Eventos da operação
 ```
 
-## 🧩 Relação com a proposta das Sprints anteriores
+## Relação com a proposta das Sprints anteriores
 
 O material conceitual do projeto identifica cinco problemas na recarga comercial: sobrecarga em horários de pico, falta de padronização, dificuldade de cobrança, experiência do usuário e ineficiência energética. A proposta apresenta como respostas o balanceamento dinâmico, a plataforma digital e os protocolos abertos.
 
 A aplicação prática desta Sprint 3 concentra-se principalmente em **controle de demanda, tarifação, pagamento, interoperabilidade e decisão inteligente**.
 
-## 💻 Tecnologias
+## Tecnologias
 
 - Python 3
 - Streamlit
 - Pandas
 - GitHub
 
-## ▶️ Como executar
+## Como executar
 
 ### 1. Clonar o repositório
 
@@ -120,19 +117,19 @@ git clone https://github.com/lucascaranb-tech/chargegrid-intelligence-sprint3.gi
 cd chargegrid-intelligence-sprint3
 ```
 
-### 2. Instalar dependências
+### Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Executar
+###  Executar
 
 ```bash
 streamlit run app.py
 ```
 
-### 4. Abrir no navegador
+###  Abrir no navegador
 
 Normalmente:
 
@@ -140,25 +137,25 @@ Normalmente:
 http://localhost:8501
 ```
 
-## 🎥 Demonstração
+## Demonstração
 
 **Vídeo YouTube:** [INSERIR LINK DO VÍDEO NÃO LISTADO]
 
-## 📚 Documentação
+## Documentação
 
 - `docs/arquitetura.md` — arquitetura e integração.
 - `docs/roteiro_video.md` — roteiro de gravação com falas e ações na tela.
 - `docs/dados_exemplo_sessoes.csv` — dados de exemplo.
 - `Entrega_FIAP_Sprint3.txt` — arquivo solicitado para entrega.
 
-## 🔗 Repositório da Sprint 2
+## Repositório da Sprint 2
 
 https://github.com/MauricioBertuci/chargegrid-intelligence-sprint2
 
-## 📌 Observação sobre a IA
+## Observação sobre a IA
 
 Nesta prova de conceito, a "inteligência" é representada por **regras de decisão** baseadas nos dados simulados: nível de bateria, pagamento e demanda. O objetivo da demonstração é evidenciar a integração funcional e o fluxo de decisão, sem apresentar a lógica de regras como um modelo de machine learning treinado.
 
-## 📖 Referência conceitual
+##  Referência conceitual
 
 O projeto conceitual descreve a IA como responsável por analisar padrões de uso, prever picos de demanda e otimizar a distribuição de energia. A Sprint 3 apresenta a camada funcional simulada que representa parte desse fluxo em operação.
